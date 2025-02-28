@@ -32,3 +32,17 @@ a:hover {
     display: flex; /* Attiva il layout flessibile */
     gap: 0px; /* Spazio tra i div */
 }
+
+.titolo{
+    width: 70%;
+    background-color: #fcba03;
+}
+
+.foto{
+    width: 30%;
+    background-color: blue;
+    background-image: url('../../immagini/DavideGiuseppeCiliento.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
