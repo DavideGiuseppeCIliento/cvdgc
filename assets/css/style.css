@@ -1,6 +1,6 @@
 /* Reset di base per rimuovere margini, padding e impostare box-sizing */
 * {
-    margin: 0;
+    margin: 0px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -27,6 +27,23 @@ a:hover {
 
 /* Classi CSS della pagina */
 
-#davidefoto{
-    width: 300px;
+
+#testata{
+    display: flex; /* Attiva il layout flessibile */
+    gap: 10px; /* Spazio tra i div */
+    width: 100%;
 }
+
+
+#davidefoto{
+    width: 50%;
+}
+
+
+.nome{
+    width: 50%;
+    background-color: #fcba03;
+    text-decoration: none;
+    padding: 10px;
+}
+
