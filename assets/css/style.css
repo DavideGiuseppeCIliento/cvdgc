@@ -30,20 +30,5 @@ a:hover {
 
 #testata{
     display: flex; /* Attiva il layout flessibile */
-    gap: 10px; /* Spazio tra i div */
-    width: 100%;
+    gap: 0px; /* Spazio tra i div */
 }
-
-
-#davidefoto{
-    width: 50%;
-}
-
-
-.nome{
-    width: 50%;
-    background-color: #fcba03;
-    text-decoration: none;
-    padding: 10px;
-}
-
