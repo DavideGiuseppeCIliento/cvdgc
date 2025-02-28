@@ -1,0 +1,32 @@
+/* Reset di base per rimuovere margini, padding e impostare box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stile di base per il corpo */
+body {
+    font-family: Arial, sans-serif; /* Font leggibile */
+    font-size: 16px; /* Dimensione standard del testo */
+    line-height: 1.5; /* Migliore leggibilità */
+    color: #333; /* Testo scuro su sfondo chiaro */
+    background-color: #f8f9fa; /* Sfondo grigio chiaro */
+}
+
+/* Imposta uno stile di base per i link */
+a {
+    color: #007bff; /* Blu */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Classi CSS della pagina */
+
+#davidefoto{
+    width: 300px;
+}
